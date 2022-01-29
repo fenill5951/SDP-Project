@@ -1,0 +1,39 @@
+.signupwrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/background-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.signup-card{
+    width:30vw;
+    /* margin-top: 7%; */
+}
+
+.insta-picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.insta-picture img{
+    width: 80%;
+    margin-top: 7px;
+}
+
+
+.input{
+    margin-top:15px;
+}
+
+
+
+@media only screen and (max-width:400px){
+    .signup-card{
+        width: 76%;
+        /* margin-top: 7%; */
+    }
+}
